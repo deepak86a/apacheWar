@@ -155,3 +155,93 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
 
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk-11.0.2
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.2+9-LTS
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\Deepak\Downloads\tomcat
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\Deepak\Downloads\tomcat
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\Deepak\Downloads\tomcat\conf\logging.properties
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\Deepak\Downloads\tomcat
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\Deepak\Downloads\tomcat
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\Deepak\Downloads\tomcat\temp
+Jul 07, 2019 4:20:13 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.6.5.
+Jul 07, 2019 4:20:13 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 07, 2019 4:20:13 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.1a  20 Nov 2018)
+Jul 07, 2019 4:20:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-9090"]
+Jul 07, 2019 4:20:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 07, 2019 4:20:13 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2863 ms
+Jul 07, 2019 4:20:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 07, 2019 4:20:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Jul 07, 2019 4:20:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Deepak\Downloads\tomcat\webapps\docs
+Jul 07, 2019 4:20:15 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [246] milliseconds.
+Jul 07, 2019 4:20:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Deepak\Downloads\tomcat\webapps\docs has finished in 1,209 ms
+Jul 07, 2019 4:20:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Deepak\Downloads\tomcat\webapps\examples
+Jul 07, 2019 4:20:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Deepak\Downloads\tomcat\webapps\examples has finished in 1,250 ms
+Jul 07, 2019 4:20:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Deepak\Downloads\tomcat\webapps\host-manager
+Jul 07, 2019 4:20:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Deepak\Downloads\tomcat\webapps\host-manager has finished in 164 ms
+Jul 07, 2019 4:20:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Deepak\Downloads\tomcat\webapps\manager
+Jul 07, 2019 4:20:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Deepak\Downloads\tomcat\webapps\manager has finished in 196 ms
+Jul 07, 2019 4:20:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Deepak\Downloads\tomcat\webapps\ROOT
+Jul 07, 2019 4:20:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Deepak\Downloads\tomcat\webapps\ROOT has finished in 81 ms
+Jul 07, 2019 4:20:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-9090"]
+Jul 07, 2019 4:20:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 07, 2019 4:20:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3151 ms
+Jul 07, 2019 4:22:57 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\Users\Deepak\Downloads\tomcat\webapps\sample.war
+Jul 07, 2019 4:22:57 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Users\Deepak\Downloads\tomcat\webapps\sample.war has finished in 262 ms
